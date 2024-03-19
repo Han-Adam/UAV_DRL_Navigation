@@ -1,0 +1,15 @@
+M : 0.027                   # Mass, in kg
+G : 9.81                    # Gravity, in m/s^2
+L : 0.0397                  # length of the arm, in m
+J : [[1.40e-5, 0, 0],
+     [0, 1.40e-5, 0],
+     [0, 0, 2.17e-5]]       # Inertia tensor, in kg/m^2
+
+CT : 2.88e-8                # Pull coefficient, in N/(rad/s)^2, the number in .urdf is in RPM
+CM : 7.24e-10               # Pull coefficient for torque, in N/(rad/s)^2
+
+MOTOR_COEFFICIENT: 2.81e-2  # Coefficient of motor
+MOTOR_BIAS : 426.24         # Base of motor
+                            # PWM~[0 to 65535],  RPM = 0.2685 × PWM + 4070.3 in RPM
+PWM_MAX: 65535
+DRAG : 0.02                 # Drag Coefficient for Motor
