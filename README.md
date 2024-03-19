@@ -1,3 +1,3 @@
 # UAV_DRL_Navigation
 
-We are working on sorting the source code, and it will be available after the pubilication is accepted.
+Code for "Autonomous Navigation of UAVs in Unknown3D Environments using Deep Reinforcement Learning for Path Planning" submitted to IEEE TSMC-S.
